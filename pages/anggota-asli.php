@@ -1,3 +1,5 @@
+<html>
+	<body>
 <div id="label-page"><h3>Tampil Data Anggota</h3></div>
 <div id="content">
 	<p id="tombol-tambah-container"><a href="index.php?p=anggota-input" class="tombol">Tambah Anggota</a></p>
@@ -37,3 +39,5 @@
 		<?php } ?>
 	</table>
 </div>
+</body>
+</html>

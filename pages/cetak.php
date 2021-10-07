@@ -1,3 +1,5 @@
+<html>
+	<body>
 <?php
 include "../koneksi.php";
 
@@ -42,3 +44,5 @@ include "../koneksi.php";
 		window.print();
 	</script>
 </div>
+	</body>
+	</html>

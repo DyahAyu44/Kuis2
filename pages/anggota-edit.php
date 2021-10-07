@@ -1,3 +1,5 @@
+<html>
+	<body>
 <?php
 	$id_anggota=$_GET['id'];
 	$q_tampil_anggota=mysqli_query($db,"SELECT * FROM tbanggota WHERE idanggota='$id_anggota'");
@@ -52,3 +54,5 @@
 	</table>
 	</form>
 </div>
+		</body>
+		</html>

@@ -1,4 +1,6 @@
-<div id="label-page"><h3>Input Data Transaksi</h3></div>
+<html>
+	<body>
+		<div id="label-page"><h3>Input Data Transaksi</h3></div>
 <div id="content">
 	<form action="proses/transaksi-input-proses.php" method="post" enctype="multipart/form-data">
 	
@@ -30,3 +32,5 @@
 	</table>
 	</form>
 </div>
+</body>
+</html>

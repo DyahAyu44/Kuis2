@@ -1,3 +1,5 @@
+<html>
+	<body>
 <?php
 session_start();
 $_SESSION['sesi'] = NULL;
@@ -32,3 +34,5 @@ include "koneksi.php";
 	  include "login.php";
 	}
 ?>
+</body>
+</html>

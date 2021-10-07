@@ -1,3 +1,5 @@
+<html>
+    <body>
 <?php
 
 $server = "localhost";
@@ -12,3 +14,5 @@ if( !$db ){
 }
 
 ?>
+</body>
+</html>

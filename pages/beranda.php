@@ -1,3 +1,5 @@
+<html>
+	<body>
 <div id="label-page"><h3>Beranda</h3></div>
 <div id="content">
 	<div id="beranda-judul">
@@ -7,3 +9,5 @@
 		<h2> "MARI MENYEWA MOBIL DI SINI!" </h2>
 	</div>
 </div>
+</body>
+</html>

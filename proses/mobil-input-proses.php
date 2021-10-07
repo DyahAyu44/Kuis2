@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 include'../koneksi.php';
 $id_mobil=$_POST['id_mobil'];
 $merk_mobil=$_POST['merk_mobil'];
@@ -29,3 +31,5 @@ if(isset($_POST['simpan'])){
 	header("location:../index.php?p=mobil");
 }
 ?>
+</body>
+</html>

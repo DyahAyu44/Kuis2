@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 	$id_mobil=$_GET['id'];
 	$q_tampil_mobil=mysqli_query($db,"SELECT * FROM tbmobil WHERE idmobil='$id_mobil'");
 	$r_tampil_mobil=mysqli_fetch_array($q_tampil_mobil);
@@ -30,3 +32,5 @@
 	</table>
 	</form>
 </div>
+</body>
+</html>

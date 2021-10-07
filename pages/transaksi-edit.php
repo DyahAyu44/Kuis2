@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 	$id_transaksi=$_GET['id'];
 	$q_tampil_transaksi=mysqli_query($db,"SELECT * FROM tbtransaksi WHERE idtransaksi='$id_transaksi'");
 	$r_tampil_transaksi=mysqli_fetch_array($q_tampil_transaksi);
@@ -38,3 +40,5 @@
 	</table>
 	</form>
 </div>
+</body>
+</html>

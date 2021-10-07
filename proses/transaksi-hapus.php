@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 include'../koneksi.php';
 $id_transaksi=$_GET['id'];
 
@@ -9,3 +11,5 @@ mysqli_query($db,
 
 header("location:../index.php?p=transaksi");
 ?>
+</body>
+</html>

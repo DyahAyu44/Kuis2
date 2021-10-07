@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 include'../koneksi.php';
 $id_mobil=$_GET['id'];
 
@@ -9,3 +11,5 @@ mysqli_query($db,
 
 header("location:../index.php?p=mobil");
 ?>
+</body>
+</html>

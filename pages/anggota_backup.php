@@ -1,3 +1,5 @@
+<html>
+	<body>
 <div id="label-page"><h3>Tampil Data Anggota</h3></div>
 <div id="content">
 	
@@ -75,3 +77,5 @@
 		
 	</table>
 </div>
+		</body>
+		</html>

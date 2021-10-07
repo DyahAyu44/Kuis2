@@ -1,4 +1,6 @@
-<div id="label-page"><h3>Tampil Data Transaksi</h3></div>
+<html>
+	<body>
+		<div id="label-page"><h3>Tampil Data Transaksi</h3></div>
 <div id="content">
 	<p id="tombol-tambah-container"><a href="index.php?p=transaksi-input" class="tombol">Tambah Transaksi</a></p>
 	<table id="tabel-tampil">
@@ -37,3 +39,5 @@
 		<?php } ?>
 	</table>
 </div>
+		</body>
+		</html>

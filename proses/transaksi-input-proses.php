@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 include'../koneksi.php';
 $id_transaksi=$_POST['id_transaksi'];
 $id_anggota=$_POST['id_anggota'];
@@ -31,3 +33,5 @@ if(isset($_POST['simpan'])){
 	header("location:../index.php?p=transaksi");
 }
 ?>
+</body>
+</html>

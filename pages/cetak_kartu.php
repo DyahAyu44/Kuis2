@@ -1,4 +1,6 @@
-<?php
+<html>
+	<body>
+		<?php
 	include "../koneksi.php";
 	$id_anggota=$_GET['id'];
 	$q_tampil_anggota=mysqli_query($db,"SELECT * FROM tbanggota WHERE idanggota='$id_anggota'");
@@ -38,3 +40,5 @@
 <script>
 		window.print();
 	</script>
+</body>
+</html>

@@ -1,4 +1,6 @@
-<div id="label-page"><h3>Input Data Mobil</h3></div>
+<html>
+	<body>
+		<div id="label-page"><h3>Input Data Mobil</h3></div>
 <div id="content">
 	<form action="proses/mobil-input-proses.php" method="post" enctype="multipart/form-data">
 	
@@ -22,3 +24,5 @@
 	</table>
 	</form>
 </div>
+</body>
+</html>

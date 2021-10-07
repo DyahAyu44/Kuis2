@@ -1,3 +1,5 @@
+<html>
+	<body>
 <?php
 include'koneksi.php';
 $tgl=date('Y-m-d');
@@ -85,3 +87,5 @@ else {
 	header('location:login.php');
 }
 ?>
+</body>
+</html>
