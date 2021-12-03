@@ -2,9 +2,9 @@
     <body>
 <?php
 
-$server = "localhost";
+$server = "172.20.0.2";
 $user = "root";
-$password = "";
+$password = "admin";
 $nama_database = "dbmobil";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);

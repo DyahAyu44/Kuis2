@@ -6,7 +6,7 @@
 }
 body{
     height: 100vh;
-	background-image: url(images/bg.jpg);
+	background-image: url(https://objectstorage.ap-sydney-1.oraclecloud.com/n/sdxibba3cgpp/b/bucket-uts/o/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
